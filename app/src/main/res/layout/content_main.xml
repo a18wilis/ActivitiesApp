@@ -18,6 +18,6 @@
         android:height="185dp"
         android:width="500dp"
         android:textAlignment="center"
-        android:id="@+id/textFromMain">
+        android:id="@+id/list_item_textview">
     </TextView>
 </LinearLayout>
