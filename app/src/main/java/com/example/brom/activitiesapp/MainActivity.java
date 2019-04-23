@@ -51,8 +51,6 @@ public class MainActivity extends AppCompatActivity {
                 String info = mountainArrayList.get(position).info();
                 intent.putExtra(EXTRA_MESSAGE, info);
                 startActivity(intent);
-
-                Toast.makeText(getApplicationContext(), "Hejsan igen", Toast.LENGTH_SHORT).show();
             }
         });
 
